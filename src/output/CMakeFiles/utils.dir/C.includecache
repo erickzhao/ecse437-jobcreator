@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/config.h
+
+../include/input.h
+
+/Users/erickzhao/Developer/ecse437/ecse437-jobcreator/src/utils/input.c
+stdio.h
+-
+stdlib.h
+-
+input.h
+/Users/erickzhao/Developer/ecse437/ecse437-jobcreator/src/utils/input.h
+config.h
+/Users/erickzhao/Developer/ecse437/ecse437-jobcreator/src/utils/config.h
+
